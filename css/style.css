@@ -143,7 +143,8 @@ h1,
   line-height: 1.2;
   color: #FFFFFF;
   margin:0;
-  mix-blend-mode: lighten;
+  /*mix-blend-mode: lighten;*/
+    text-shadow: 3px 3px 5px #333;
 }
 
 h1 i,
@@ -442,7 +443,7 @@ label.error{
   font-size: 0.9375em;
   text-transform: uppercase;
   text-decoration: none;
-  box-shadow:0 10px 20px rgba(101,52,255,0.3);
+  box-shadow:0 10px 20px rgba(33,33,33,0.3);
   background-color:#333;
   -webkit-transition: all .3s ease-out!important;
           transition: all .3s ease-out!important;
@@ -686,6 +687,7 @@ label.error{
 
 .lead{
   font-size: 1.375em;
+  text-shadow: 2px 2px 5px #333;
 }
 
 .leadText{
@@ -1428,7 +1430,7 @@ label.error{
 }
 
 .main-about{
-  background:url(../img/about-bg2.jpg) 100% 50% no-repeat;
+  background:url(../img/about-bg2.png) 100% 50% no-repeat;
   background-size:cover;
 }
 
@@ -1450,6 +1452,7 @@ label.error{
 .main-agency{
   background:url(../img/home-bg2.jpg) 50% 0 no-repeat;
   background-size:cover;
+    text-align: center;
 }
 
 .main-startup{
@@ -1858,7 +1861,13 @@ label.error{
   5. Portfolio
 -------------------------------------------------------------------------------*/
 
+.color-w1-font {
+    color: #fff;
+}
 
+.color-w2-font{
+    color: #c7ddef;
+}
 
 .main-portfolio{
   background: url(../img/portfolio-bg2.jpg) 50% 0 no-repeat;
@@ -3075,15 +3084,17 @@ img.mfp-img{
 /*  15. 404 Page
 /* ------------------------------------------------------------------------------- */
 
+.lead {
 
+}
 
 .main-404{
-  background:url(../img/bg/bg-404.jpg) 50% 0 no-repeat;
+  background:url(../img/404-bg2.jpg) 50% 0 no-repeat;
   background-size:cover;
 }
 
 .main-404:before{
-  background-color: rgba(10,10,10,0.8);
+  background-color: rgba(33,33,33,0.3);
 }
 
 .main-404 .btn{
@@ -3565,8 +3576,9 @@ img.mfp-img{
   .navbar-toggle.collapsed{
     margin:0;
   }
+
   .home-title{
-    font-size:3.4em;
+      font-size: 3.4em;
   }
   .events {
     padding-left: 1em;
@@ -3609,7 +3621,7 @@ img.mfp-img{
 
 @media (min-width: 1230px) {
   .main-about{
-    background:url(../img/about-bg2.jpg) 80% -30px no-repeat;
+    background:url(../img/about-bg2.png) 80% -30px no-repeat;
     background-size:cover;
   }
 }
