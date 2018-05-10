@@ -3621,7 +3621,7 @@ img.mfp-img{
 
 @media (min-width: 1230px) {
   .main-about{
-    background:url(../img/about-bg2.png) 80% -30px no-repeat;
+    background:url(../img/about-bg2.png) 100% 100% no-repeat;
     background-size:cover;
   }
 }
