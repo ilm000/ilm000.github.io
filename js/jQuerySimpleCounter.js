@@ -28,7 +28,7 @@
                     i.text(t + "k+"); 
                 } else {
                     var t = Math.ceil(this.count);
-                    i.text(t)    
+                    i.text(t + "+")
                 }                
             },
             complete: e.complete

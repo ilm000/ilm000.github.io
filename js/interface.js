@@ -206,7 +206,7 @@
 				
 				if (!$(this).hasClass("animated")) {
 					$(this).addClass("animated");
-					if ($(this).attr("data-value") == 3.80) {
+					if ($(this).attr("data-value") == 3.89) {
 						$(this).jQuerySimpleCounter({
 							start: 0,
 							end: $(this).attr("data-value"),

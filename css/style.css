@@ -1430,7 +1430,7 @@ label.error{
 }
 
 .main-about{
-  background:url(../img/about-bg2.png) 100% 50% no-repeat;
+  background:url(../img/page-about-bg.jpg) 100% 50% no-repeat;
   background-size:cover;
 }
 
@@ -1450,7 +1450,7 @@ label.error{
 
 /* CHANGE: BACKGOURD-IMAGE HOME */
 .main-agency{
-  background:url(../img/home-bg2.jpg) 50% 0 no-repeat;
+  background:url(../img/page-home-bg.jpg) 50% 0 no-repeat;
   background-size:cover;
     text-align: center;
 }
@@ -1870,7 +1870,7 @@ label.error{
 }
 
 .main-portfolio{
-  background: url(../img/portfolio-bg2.jpg) 50% 0 no-repeat;
+  background: url(../img/page-project-bg.jpg) 50% 0 no-repeat;
   background-size:cover;
 }
 
@@ -3089,7 +3089,7 @@ img.mfp-img{
 }
 
 .main-404{
-  background:url(../img/404-bg2.jpg) 50% 0 no-repeat;
+  background:url(../img/page-404-bg.png) 50% 0 no-repeat;
   background-size:cover;
 }
 
@@ -3585,7 +3585,7 @@ img.mfp-img{
     padding-right: 1em;
   }
   .experience-title {
-  margin-bottom: 0.5em;
+  /*margin-bottom: 0.5em;*/
   }
   .port-text {
     padding-left:2em;
@@ -3621,7 +3621,7 @@ img.mfp-img{
 
 @media (min-width: 1230px) {
   .main-about{
-    background:url(../img/about-bg2.png) 100% 100% no-repeat;
+    background:url(../img/page-about-bg.jpg) 100% 100% no-repeat;
     background-size:cover;
   }
 }
