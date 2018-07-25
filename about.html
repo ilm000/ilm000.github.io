@@ -22,7 +22,6 @@
 <body>
 
   <!-- Loader -->
-
   <div class="loader">
     <div class="spinner">
       <div class="double-bounce1"></div>
@@ -30,6 +29,7 @@
     </div>
   </div>
 
+  <!-- Navigation -->
   <header class="navbar">
     <div>
       <a href="./index.html" class="brand js-target-scroll">
@@ -62,7 +62,7 @@
             <a href="./about.html">About Me</a>
           </li>
           <li>
-            <a href="./portfolio.html">Projects</a>
+            <a href="project.html">Projects</a>
           </li>
           <li>
             <a href="Resume_Jason_Duan.pdf" target="_blank">Resume</a>
@@ -82,7 +82,7 @@
               <a href="./about.html">About Me</a>
             </li>
             <li>
-              <a href="./portfolio.html">Projects</a>
+              <a href="project.html">Projects</a>
             </li>
             <li>
               <a href="./Resume_Jason_Duan.pdf" target="_blank">Resume</a>
@@ -94,7 +94,6 @@
   </header>
 
   <!-- Home -->
-
   <main class="main main-inner main-about" data-stellar-background-ratio="0.8">
     <div class="container">
       <div class="opener">
@@ -184,6 +183,59 @@
       </div>
     </section>
 
+    <!-- Experience -->
+    <section class="section bg-light events">
+      <div class="container">
+        <div class="row">
+          <header class="text-center col-md-8 col-md-offset-2">
+            <h2 class="section-title-2">Experiences</h2>
+          </header>
+        </div>
+      </div>
+      <div class="">
+        <div class="container">
+
+          <div class="about-entry wow fadeInUp">
+            <div class="">
+              <h2 style="margin: 0; padding: 0; line-height: 1.4em;" class="experience-title">
+                HANLON FINANCIAL SYSTEM LAB | SHIFT Project, Software Developer
+              </h2>
+              <p style="margin-bottom: 0; padding:0; font-size: 0.9em;" class="blog-rubric"> Apr 2018 – Now | Hoboken, NJ </p>
+              <p class="experience-content"><span class="bullet">•</span> Used FIX protocol (via QuickFIX library) to communicate between frontend and backend modules.</p>
+              <p class="experience-content"><span class="bullet">•</span> Resolved multithreading issues and wrong fields of FIX(Financial Information eXchange) message.</p>
+              <p class="experience-content"><span class="bullet">•</span> Implemented design pattern to decrease execution time by 30%.</p>
+              <p class="experience-content"><span class="bullet">•</span> Splitted download part into multiple threads and reduced loading time by 50%.</p>
+            </div>
+          </div>
+
+          <div class="about-entry wow fadeInUp">
+            <div class="">
+              <h2 style="margin: 0; padding: 0; line-height: 1.4em;" class="experience-title">
+                GREENET INFORMATION CO. | Software Engineer
+              </h2>
+              <p style="margin-bottom: 0; padding:0; font-size: 0.9em;" class="blog-rubric"> Aug 2015 – Feb 2017 | Beijing, China </p>
+              <p class="experience-content"><span class="bullet">•</span> Worked on DPI(Deep Packet Inspection), interpretation, and troubleshooting with HTTP/HTTPS proxies. </p>
+              <p class="experience-content"><span class="bullet">•</span> Performed distributed architecture to optimize the query procedure. </p>
+              <p class="experience-content"><span class="bullet">•</span> Improved the accuracy of checking for malicious code and spam by 25%. </p>
+            </div>
+          </div>
+
+          <div class="about-entry wow fadeInUp">
+            <div class="">
+              <h2 style="margin: 0; padding: 0; line-height: 1.4em;" class="experience-title">
+                CISCO | Software Engineer Intern
+              </h2>
+              <p style="margin-bottom: 0; padding:0; font-size: 0.9em;" class="blog-rubric"> Feb 2015 – Jul 2015 | Beijing, China </p>
+              <p class="experience-content"><span class="bullet">•</span> Worked on editing, designing and construction of web pages for hosting service using HTML5 and CSS3. </p>
+              <p class="experience-content"><span class="bullet">•</span> Improved UI/UX interface for customer experience and fixed bugs. </p>
+              <p class="experience-content"><span class="bullet">•</span> All code was reviewed, perfected, and pushed to production. </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
     <!-- Education -->
     <section class="section pb-0">
       <div class="container text-center">
@@ -192,27 +244,26 @@
             <h2 class="section-title-2">Education</h2>
           </header>
         </div>
-        <div class="about-entry wow"> <!-- fadeInUp -->
+        <div class="about-entry wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
           <div class="blog-info">
-            <div class="blog-rubric">Expected May 2019</div>
+            <div class="blog-rubric"> Expected May 2019 </div>
             <h2 class="blog-title">
-              <a href="https://www.stevens.edu/" target="_blank">Stevens Institute of Technology</a>
+              <a href="https://www.stevens.edu/" target="_blank"> Stevens Institute of Technology </a>
             </h2>
-            <p class="">MS in Computer Science<br/> GPA: 3.89/4.0</p>
+            <p class=""> MS in Computer Science <br> GPA: 3.89/4.0 </p>
           </div>
         </div>
 
-        <div class="about-entry wow  ata-wow-delay="> <!-- fadeInUp -->
-          <div class="blog-info ">
-            <div class="blog-rubric ">2011 - 2015</div>
-            <h2 class="blog-title ">
-              <a href="http://english.qdu.edu.cn/" target="_blank ">Qingdao University</a>
-            </h2>
-            <p class=" ">BS in Computer Science</p>
-          </div>
+        <div class="about-entry wow fadeInUp ata-wow-delay=" 0.3s="" "="" style="visibility: visible; animation-name: fadeInUp;">
+        <div class="blog-info ">
+          <div class="blog-rubric ">2011 - 2015</div>
+          <h2 class="blog-title ">
+            <a href="http://www.brown.edu/ " target="_blank "> Qingdao University </a>
+          </h2>
+          <p class=" "> BS in Computer Science </p>
         </div>
-
       </div>
+
     </section>
 
     <!-- Courses -->
@@ -268,60 +319,6 @@
       </div>
     </section>
 
-
-    <!-- Experience -->
-    <section class="section bg-light events">
-      <div class="container">
-        <div class="row">
-          <header class="text-center col-md-8 col-md-offset-2">
-            <h2 class="section-title-2">Experiences</h2>
-          </header>
-        </div>
-      </div>
-      <div class="">
-        <div class="container">
-
-          <div class="about-entry wow fadeInUp">
-            <div class="">
-              <h2 style="margin: 0; padding: 0; line-height: 1.4em;" class="experience-title">
-                HANLON FINANCIAL SYSTEM LAB | SHIFT Project, Software Developer
-              </h2>
-              <p style="margin-bottom: 0; padding:0; font-size: 0.9em;" class="blog-rubric"> Apr 2018 – Now | Hoboken, NJ </p>
-              <p class="experience-content"><span class="bullet">•</span> Used FIX protocol (via QuickFIX library) to communicate between frontend and backend modules.</p>
-              <p class="experience-content"><span class="bullet">•</span> Resolved multithreading issues and wrong fields of FIX(Financial Information eXchange) message.</p>
-              <p class="experience-content"><span class="bullet">•</span> Implemented design pattern to decrease execution time by 30%.</p>
-              <p class="experience-content"><span class="bullet">•</span> Splitted download part into multiple threads and reduced loading time by 50%.</p>
-            </div>
-          </div>
-
-          <div class="about-entry wow fadeInUp">
-            <div class="">
-              <h2 style="margin: 0; padding: 0; line-height: 1.4em;" class="experience-title">
-                GREENET INFORMATION CO. | Software Engineer
-              </h2>
-              <p style="margin-bottom: 0; padding:0; font-size: 0.9em;" class="blog-rubric"> Aug 2015 – Feb 2017 | Beijing, China </p>
-              <p class="experience-content"><span class="bullet">•</span> Worked on DPI(Deep Packet Inspection), interpretation, and troubleshooting with HTTP/HTTPS proxies. </p>
-              <p class="experience-content"><span class="bullet">•</span> Performed distributed architecture to optimize the query procedure. </p>
-              <p class="experience-content"><span class="bullet">•</span> Improved the accuracy of checking for malicious code and spam by 25%. </p>
-            </div>
-          </div>
-
-          <div class="about-entry wow fadeInUp">
-            <div class="">
-              <h2 style="margin: 0; padding: 0; line-height: 1.4em;" class="experience-title">
-                CISCO | Software Engineer Intern
-              </h2>
-              <p style="margin-bottom: 0; padding:0; font-size: 0.9em;" class="blog-rubric"> Feb 2015 – Jul 2015 | Beijing, China </p>
-              <p class="experience-content"><span class="bullet">•</span> Worked on editing, designing and construction of web pages for hosting service using HTML5 and CSS3. </p>
-              <p class="experience-content"><span class="bullet">•</span> Improved UI/UX interface for customer experience and fixed bugs. </p>
-              <p class="experience-content"><span class="bullet">•</span> All code was reviewed, perfected, and pushed to production. </p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
     <!-- Resume -->
     <section class="promo bg-primary section-sm">
       <div class="container">
@@ -344,12 +341,12 @@
             <ul class="nav-bottom ">
               <li><a href="./index.html ">Home</a></li>
               <li><a href="./about.html ">About</a></li>
-              <li><a href="./portfolio.html ">Projects</a></li>
+              <li><a href="project.html ">Projects</a></li>
               <li><a href="Resume_Jason_Duan.pdf" target="_blank">Resume</a></li>
             </ul>
           </div>
           <div class="col-contacts col-base col-sm-6 col-md-3 footer-row2 ">
-            <a href="tel:14252836889" class="phone footer-last">+1 425 283 6889</a><br>
+            <a href="tel:14252836889" class="phone footer-last">+1 425-283-6889</a><br>
             <a href="mailto:duan_jason@outlool.com" class="email footer-last">duan_jason@outlook.com</a><br>
             <a href="https://www.google.com/maps/place/Stevens+Institute+of+Technology/@40.7448624,-74.0346548,15.66z" target="_blank " class="footer-last">Hoboken, NJ, 07030</a> <br/>
           </div>
@@ -364,7 +361,6 @@
       </div>
     </footer>
   </div>
-
 
   <!-- Modals -->
   <div id="request" class="modal fade" role="dialog">
@@ -395,7 +391,6 @@
     </div>
   </div>
 
-
   <!-- Modals success -->
   <div id="success" class="modal modal-message fade" role="dialog">
     <div class="modal-dialog">
@@ -408,7 +403,6 @@
       </div>
     </div>
   </div>
-
 
   <!-- Modals error -->
   <div id="error" class="modal modal-message fade" role="dialog">
@@ -423,7 +417,6 @@
     </div>
   </div>
 
-
   <!-- SCRIPTS -->
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
@@ -437,11 +430,9 @@
   <script src="js/isotope.pkgd.min.js"></script>
   <script src="js/imagesloaded.pkgd.js"></script>
 
-
   <!-- SLIDER REVOLUTION -->
   <script src="js/rev-slider/jquery.themepunch.tools.min.js"></script>
   <script src="js/rev-slider/jquery.themepunch.revolution.min.js"></script>
-
 
   <!-- SLIDER REVOLUTION 5x EXTENSIONS   -->
   <script src="js/rev-slider/revolution.extension.actions.min.js"></script>
